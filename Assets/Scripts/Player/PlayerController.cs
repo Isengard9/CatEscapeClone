@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public Action OnPlayerTriggeredFov;
     public GameManager gameManager;
     
-    [SerializeField] private VariableJoystick joystick;
+    [SerializeField] private Joystick joystick;
     [SerializeField] private CharacterController characterController;
 
     private float moveSpeed = 0.1f;
